@@ -91,6 +91,7 @@ class FABBottomAppBarState extends State<FABBottomAppBar> {
           children: items,
         ),
         color: widget.backgroundColor,
+        elevation: 0.0,
       ),
     );
   }
